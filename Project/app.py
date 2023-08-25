@@ -7,10 +7,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 # st.set_page_config(page_title="my hackathon project",layout="wide")
 st.set_page_config(
-    page_title="multipage"
+    page_title="EXPRESSION EXCAVATOR"
 )
-st.title("main page")
-st.sidebar.success("select a page")
 
 def graph():
     s=sa.callcount()
@@ -29,9 +27,16 @@ lottie_variable3=load_lottiefile("3.json")
 lottie_variable4=load_lottiefile("4.json")   
 
 #header
-st.subheader("hello everyone")
-st.title("we are working on AI")
-st.write("we are passionate coders")
+st.subheader("BY DATA ALCHEMISTS")
+st.title("EXPRESSION EXCAVATOR")
+st.write("An initiative to establish social harmony amongst netizens")
+st.write("Using the amalgamation of python libraries and technologies like deep learning, pandas, nltk, large language processing, deep translators, matplotlib and streamlit we have targeted the problems of  ")
+st.write("1) HATE SPEECH")
+st.write("2) BULLYING")
+st.write("3) VIOLENCE AND RIOTS")
+st.write("4) SPREAD OF FAKE NARRATIVES")
+st.write("##")
+st.write("By analyzing social media trends and text documents extracted from the same to establish social harmony amongst the netizens")
 # st.write("[click here to redirect to a link](paste any youtube link here)")
 
 user_list=[]
@@ -41,7 +46,8 @@ with st.container():
     st.write("---")
     left_column,right_column=st.columns(2)
     with right_column:
-        st.header("COGNITIVE COMPUTIONG AND SOCIAL SENSING:FILE UPLOADING")
+        st.header("UPLOAD CHAT/TEXT TO BE ANALYZED")
+        st.write("POWERED BY COGNITIVE COMPUTING AND SOCIAL SENSING:FILE UPLOADING")
         st.write("##")
         st.write("##")
         st.write("##")
@@ -57,17 +63,16 @@ with st.container():
                 df1.to_csv('temp.csv', index=False)
 
     with left_column:
-        st_lottie(lottie_variable2,height=700,key="catu2")              
+        st_lottie(lottie_variable2,height=500,key="catu2")              
 global selected_user
 with st.container():
     st.write("---")
     left_column,right_column=st.columns(2)
     with left_column:
-        st.header("COGNITIVE COMPUTIONG AND SOCIAL SENSING:DROPDOWN MENU")
+        st.header("ENTER NAME OF THE USER")
         st.write("##")
-        st.write("##")
-        st.write("##")
-        st.write("Type name of user-")
+        # st.write("##")
+        # st.write("Type name of user-")
         for i in range(len(user_list)):
             st.write(i+1,")",user_list[i])
         selected_user = st.text_input("Enter Name-")
@@ -86,13 +91,11 @@ with st.container():
         with right_column:
          st_lottie(lottie_variable3,height=700,key="catu3")    
 
-
-
 with st.container():
     st.write("---")
     left_column,right_column=st.columns(2)
     with left_column:
-        st.header("COGNITIVE COMPUTIONG AND SOCIAL SENSING:GRAPH")
+        st.header("CONCLUSIONS DERIVED VIA GRAPH")
         st.write("##")
         st.write("##")
         st.write("##")
@@ -109,7 +112,7 @@ with st.container():
     st.write("---")
     left_column,right_column=st.columns(2)
     with right_column:
-        st.header("COGNITIVE COMPUTIONG AND SOCIAL SENSING:GRAPH")
+        st.header("MOST USED WORDS IN CHAT ANALYSIS")
         st.write("##")
         st.write("##")
         st.write("##")
@@ -121,4 +124,6 @@ with st.container():
             fig,ax = plt.subplots()
             ax.imshow(df_wc)
             st.pyplot(fig)
+    with left_column:
+        st_lottie(lottie_variable4,height=400,key="catu4")  
         
