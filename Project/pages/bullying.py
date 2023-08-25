@@ -109,8 +109,6 @@ with st.container():
                  )
         if st.button("SHOW GRAPH"):
             graph()
-    with right_column:
-        st_lottie(lottie_variable8,height=500,key="catu8")   
         
 
 with st.container():
