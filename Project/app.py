@@ -5,7 +5,12 @@ import preprocessor as pp
 import sentiment_analyser as sa
 import pandas as pd
 import matplotlib.pyplot as plt
-st.set_page_config(page_title="my hackathon project",layout="wide")
+# st.set_page_config(page_title="my hackathon project",layout="wide")
+st.set_page_config(
+    page_title="multipage"
+)
+st.title("main page")
+st.sidebar.success("select a page")
 
 def graph():
     s=sa.callcount()
