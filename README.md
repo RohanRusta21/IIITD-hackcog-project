@@ -1,0 +1,39 @@
+# EXPRESSION EXCAVATOR
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+USING THE AMALGAMATION OF DEEP LEARNING, PANDAS, NLTK, NLP, DEEP TRANSLATOR, MATPLOTLIB AND STREAMLITE WE HAVE TARGETED THE ABOVE PROBLEMS OF 
+1)HATE SPEECH
+2) BULLYING 
+3) VIOLENCE &RIOTS
+4)SPREAD OF FAKE NARRATIVES
+BY ANALYSING SOCIAL MEDIA TRENDS AND TEXT DOCUMENTS EXTRACTED FROM THE SAME TO ESTABLISH SOCIAL HARMONY AMONGST NETIZENS
+
+## Features
+USING OUR EXPRESSION EXCAVATOR WE
+
+CAN KNOW 1) CONCERTED OPINION OF LARGE MASSES TO KNOW WHAT POSSIBLE ACTION THEY ARE GOING TO TAKE BY ANALYSING THEIR CURRENT OPIONS IN THIER SOCIAL MEDIA POSTS(HERE WHATSAPP CHATS)
+
+2)PREVENT BULLYING HARASSING OF AN INDIVIDUAL ON THE BASIS OF CASTE, RELIGION, SEX, COLOR OR BACKGROUND.
+3)HEALTH MISINFORMATION REFERS TO SPREAD OF INACCURATE MISLEADING FALSE INFO OUR APPLICATION CAN BE USED TO COMBAT THAT AS WELL
+Health misinformation refers to the spread of inaccurate, misleading, or
+
+
+## Tech Stack
+ DEEP LEARNING, PANDAS, NLTK, NLP, DEEP TRANSLATOR, MATPLOTLIB AND STREAMLITE
+
+
+## Usage
+change directory to project
+in terminal, streamlit run app.py
+## Contributing
+We welcome contributions to improve DATA ALCHEMISTS! If you have suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+
