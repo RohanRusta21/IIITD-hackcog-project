@@ -7,6 +7,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 import nltk
 import pandas as pd
+from wordcloud import WordCloud
 
 from deep_translator import GoogleTranslator
 import pandas as pd
@@ -61,7 +62,25 @@ def sentiment_analyze():  # Renamed from sentiment_analyse to sentiment_analyze
     print(senti)
     return(senti)
 
+def create_wordcloud(selected_user):
 
+    f = open('stop_hinglish.txt', 'r')
+    stop_words = f.read()
+    df = pd.read_csv('temp.csv')
+    if selected_user != 'Overall':
+        df = df[df['user'] == selected_user]
 
+    temp = df[df['user'] != 'group_notification']
+    temp = temp[temp['message'] != '<Media omitted>\n']
 
+    def remove_stop_words(message):
+        y = []
+        for word in message.lower().split():
+            if word not in stop_words:
+                y.append(word)
+        return " ".join(y)
 
+    wc = WordCloud(width=500,height=500,min_font_size=10,background_color='white')
+    temp['message'] = temp['message'].apply(remove_stop_words)
+    df_wc = wc.generate(temp['message'].str.cat(sep=" "))
+    return df_wc
