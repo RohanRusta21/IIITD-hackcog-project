@@ -44,6 +44,9 @@ with st.container():
 with st.container():
     st.write("---")
     st.subheader("sample text")
+    file=open("covid.txt", 'r')
+    txt=file.read()
+    st.write(txt)
     #file to be added here
 
 with st.container():
