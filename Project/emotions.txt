@@ -604,4 +604,12 @@
 'understanding': 'empathetic',
 'struggle': 'resilient',
 'privilege': 'unaware',
-'equity': 'balanced'
+'equity': 'balanced',
+'grow': 'Negative',
+'spread': 'Negative',
+'vigrously': 'concerned',
+'spreading': 'Negative',
+'positive': 'Positive',
+'encouraging': 'enchanted',
+'precautions': 'Safety',
+'enforcement': 'Strictness',
