@@ -123,7 +123,5 @@ with st.container():
             df_wc = sa.create_wordcloud(selected_user)
             fig,ax = plt.subplots()
             ax.imshow(df_wc)
-            st.pyplot(fig)
-    with left_column:
-        st_lottie(lottie_variable4,height=400,key="catu4")  
+            st.pyplot(fig) 
         
