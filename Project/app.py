@@ -23,7 +23,7 @@ lottie_variable2=load_lottiefile("2.json")
 lottie_variable3=load_lottiefile("3.json")  
 lottie_variable4=load_lottiefile("4.json")   
 
-
+#header
 st.subheader("hello everyone")
 st.title("we are working on AI")
 st.write("we are passionate coders")
@@ -62,6 +62,9 @@ with st.container():
         st.write("##")
         st.write("##")
         st.write("##")
+        st.write("Type name of user-")
+        for i in range(len(user_list)):
+            st.write(i+1,")",user_list[i])
         selected_user = st.text_input("Enter Name-")
         df = pd.read_csv('temp.csv')
         filtered_data = df[df['user'] == selected_user]['message']
@@ -95,4 +98,22 @@ with st.container():
             graph()
     with right_column:
         st_lottie(lottie_variable1,height=700,key="catu")   
+        
+
+with st.container():
+    st.write("---")
+    left_column,right_column=st.columns(2)
+    with right_column:
+        st.header("COGNITIVE COMPUTIONG AND SOCIAL SENSING:GRAPH")
+        st.write("##")
+        st.write("##")
+        st.write("##")
+
+        st.write('''Word Cloud '''
+                 )
+        if st.button("SHOW WORD CLOUD"):
+            df_wc = sa.create_wordcloud(selected_user)
+            fig,ax = plt.subplots()
+            ax.imshow(df_wc)
+            st.pyplot(fig)
         
