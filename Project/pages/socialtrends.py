@@ -26,8 +26,8 @@ lottie_variable6=load_lottiefile("6.json")
 lottie_variable3=load_lottiefile("3.json")   
 
 #header
-st.title("EXPRESSION EXCAVATOR protects you from health misinformation")
-st.subheader("Health misinformation refers to the spread of inaccurate, misleading, or false information related to health, medical conditions, treatments, and wellness. This type of misinformation can be harmful as it can lead individuals to make decisions about their health based on incorrect or unverified information. Health misinformation can be spread through various channels, including social media,")
+st.title("SOCIAL TRENDS ANALYSER")
+st.subheader("OUR EXPRESSION EXCAVATOR HELPS TO ANALYSE SOCIAL MEDIA TRENDS...LIKE WHAT IS POPULAR ON SOCIAL MEDIA CHANNELS AT A CERTAIN POINT OF TIME .SOCIAL TRENDS ARE EPHEMERAL CONTENT TYPES THAT CAPTURE ATTENTION OF WIDE AUDIENCE AND CAN QUICKLY SPREAD ACROSS ALL MAJOR MEDIA PLATFORMS")
 st.write("##")
 # st.write("we are passionate coders")
 # st.write("[click here to redirect to a link](paste any youtube link here)")
