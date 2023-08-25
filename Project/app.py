@@ -23,7 +23,7 @@ lottie_variable2=load_lottiefile("2.json")
 lottie_variable3=load_lottiefile("3.json")  
 lottie_variable4=load_lottiefile("4.json")   
 
-#header
+
 st.subheader("hello everyone")
 st.title("we are working on AI")
 st.write("we are passionate coders")
