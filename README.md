@@ -4,10 +4,8 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 USING THE AMALGAMATION OF DEEP LEARNING, PANDAS, NLTK, NLP, DEEP TRANSLATOR, MATPLOTLIB AND STREAMLITE WE HAVE TARGETED THE ABOVE PROBLEMS OF 
