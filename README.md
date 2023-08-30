@@ -26,7 +26,7 @@ Health misinformation refers to the spread of inaccurate, misleading, or
 
 
 ## Tech Stack
- DEEP LEARNING, PANDAS, NLTK, NLP, DEEP TRANSLATOR, MATPLOTLIB AND STREAMLITE
+ DEEP LEARNING, PANDAS, NLTK, NLP, DEEP TRANSLATOR, MATPLOTLIB AND STREAMLIT
 
 
 ## Usage
